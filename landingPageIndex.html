@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Linking the css-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="landingPageStyle.css">
     <!-- Linking  Fontawesome icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Landing page</title>
 </head>
 <body>
     <!-- This is the header to hold the top page properties -->
+
     <header>
-        <h3><b>Start Bootstrap</b></h3>
-        <button>Sign In</button>
+        <h3 class="topTitle"><b>Start Bootstrap</b></h3>
+        <button class="topRight">Sign In</button>
     </header>
-    <!-- Container landing page image, etc... -->
+    <!-- Container landing page image, etc...inside that another div for the style  -->
+
     <section class="container">
         <img src="Gallery\pexels-photo-4666748.jpeg" alt="shark in the ocean" width="1500" height="750">
+        <div class="centered">
         <h2 class="title"><b>Build a landing page for your business<br>
         or project and generate morre leads!</b></h2>
-        <form>
-            <input type="email" >
-            <button>Sign up!</button>
-        </form>
+            <form>
+                <input type="email" >
+                <button>Sign up!</button>
+            </form>
+        </div>
     </section>
+    <!-- The footer of the page -->
+    
     <footer>
         <section class="underContainer">
             <div class="Icons"><i class="fa-solid fa-display"></i></div>
